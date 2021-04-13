@@ -14,6 +14,8 @@ public class Alumno {
     private int numMtr;
     private String nombre;
     private String apellidos;
+    private String ciclo;
+    private String curso;
 
     public Alumno(int numMtr, String nombre, String apellidos) {
         this.numMtr = numMtr;
@@ -37,14 +39,10 @@ public class Alumno {
         this.nombre = nombre;
     }
 
-    public String getApellidos() {
-        return apellidos;
-    }
 
-    public void setApellidos(String apellidos) {
-        this.apellidos = apellidos;
+    @Override
+    public String toString() {
+        return "Alumno{" + "numMtr=" + numMtr + ", nombre=" + nombre + ", apellidos=" + apellidos + '}';
     }
-    
-    
     
 }
