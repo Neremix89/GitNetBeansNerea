@@ -12,10 +12,9 @@ package Votacion;
 public class Votacion {
     
     private String nombre;
+    private String apellidos;
     private Integer votos;
 
-    public Votacion() {
-    }
 
     public Votacion(String nombre, Integer votos) {
         super();
@@ -41,7 +40,7 @@ public class Votacion {
 
     @Override
     public String toString() {
-        return "Votacion{" + "nombre=" + nombre + ", votos=" + votos + '}';
+        return "Votacion{" + "nombre=" + nombre + "apellidos=" + apellidos + ", votos=" + votos + '}';
     }
     
     
